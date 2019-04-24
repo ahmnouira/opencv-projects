@@ -1,5 +1,5 @@
 #! /usr/bin/python 
-#python
+#python2
 
 
 import cv2      					        # import OpenCV lib
@@ -17,7 +17,7 @@ else:
         faces = face_cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=3,minSize=(30, 30), flags=cv2.cv.CV_HAAR_SCALE_IMAGE)
 
         for (x,y,w,h) in faces:                              # for all faces in the frame          
-            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255 , 255), 5)   # draw  yellow  rectangle
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0 , 255), 5)   # draw  red  rectangle (BGR)
 # (x, y) coordinates, w : width, h:height   
 
         cv2.imshow(" Captured: " , frame)         # show frames in the window

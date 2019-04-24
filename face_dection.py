@@ -9,4 +9,4 @@ faces = face_cascade.detectMultiScale(image, scaleFactor=1.1, minNeighbors=3,min
 print(faces)
 for (x,y,w,h) in faces:
     cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0 , 255), 5)
-cv2.imwrite('poeple_faces.jpg', image)
+cv2.imwrite('people_faces.jpg', image)
