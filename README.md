@@ -1,5 +1,4 @@
-# OpenCv
-OpenCv Get Started
+# OpenCV
+OpenCV Get Started 
 
-	* simple_streaming
- 	* record video and save it to a file
+You can find here exemples about face detection
