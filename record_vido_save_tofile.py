@@ -2,10 +2,6 @@
 # coding: utf-8
 
 # OpenCV Record Video & Save to File
-
-
-
-
 import cv2                          			 					 # import OpenCV
 cameraCapture = cv2.VideoCapture(0)   					 # start the capture from then webcam
 fps = 9                            			 					 # set the fps an assumption 
@@ -26,16 +22,3 @@ while success and time_rec > 0:
     success, frame = cameraCapture.read()   
     time_rec -= 1    										
 cameraCapture.release()
-
-
-
-
-
-
-
-
-# In[ ]:
-
-
-
-

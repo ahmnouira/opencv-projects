@@ -1,5 +1,6 @@
-# OpenCv
-OpenCv Get Started
+# OpenCV
 
-	* simple_streaming
- 	* record video and save it to a file
+OpenCV examples:
+
+* simple_streaming
+* record video and save it to a file
