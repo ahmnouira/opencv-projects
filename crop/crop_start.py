@@ -20,7 +20,7 @@ h, w, _ = img.shape
 nb_cols = 5
 right_m = 5
 top_m = 0
-bottom_m = -10  # -6
+bottom_m = -16  # -10 # -6
 left_m = 10
 tile_w = w // nb_cols
 
