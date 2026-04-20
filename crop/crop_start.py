@@ -9,13 +9,13 @@ FIX_ONLY_LAST = True
 OUTPUT_ASSETS = "/Users/ahmnouira/Desktop/askwe/assets/tabs"
 
 # the image in the root folder
-img = cv2.imread("image.jpg")
+img = cv2.imread("image.png")
 h, w, _ = img.shape
 
 nb_cols = 5
 right_m = 5
 top_m = 0
-bottom_m = -6
+bottom_m = -10  # -6
 left_m = 10
 tile_w = w // nb_cols
 
