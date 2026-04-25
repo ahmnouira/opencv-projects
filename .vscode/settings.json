@@ -1,9 +1,11 @@
 {
     "cSpell.words": [
         "ahmnouira",
+        "fourcc",
         "imread",
         "imshow",
         "imwrite",
-        "numpy"
+        "numpy",
+        "pytesseract"
     ]
 }
